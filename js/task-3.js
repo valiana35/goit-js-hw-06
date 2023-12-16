@@ -8,13 +8,13 @@ class StringBuilder {
         return this.#value;
     }
     padEnd(str) {
-        this.#value += str;
+        initialValue += str;
     }
     padStart(str) {
-        this.#value = str + this.#value;
+        initialValue = str + this.#value;
     }
     padBoth(str) {
-        this.#value = str + this.#value + str;
+        initialValue = str + this.#value + str;
     }
 }
 
